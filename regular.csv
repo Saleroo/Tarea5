@@ -1,0 +1,3 @@
+edufindme@edufindme.com,^0100017[0-9a-z]{9}-[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}-[0]{6}@email.amazonses.com,01/03/20
+noreply@steampowered.com,^E1\w{5}\-0{2}\w{4}\-\w{2}@smtp\-\d{2}\-tuk1\.steampowered\.com,09/02/19
+no-reply@twitch.tv,[a-f0-9]{16}\-[a-f0-9]{8}\-[a-f0-9]{4}\-[a-f0-9]{4}\-[a-f0-9]{4}\-[a-f0-9]{12}\-000000@us-west-2\.amazonses\.com,19/10/20
