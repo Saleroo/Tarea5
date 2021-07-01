@@ -731,7 +731,7 @@ def detectar(name,password):
 
         elif(opcion == "notifications@instructure.com"):
             #--obtener las ids de los mensajes con remitente twitch--
-            typ, data = mail.search(None,'(FROM "no-reply@accounts.google.com")')
+            typ, data = mail.search(None,'(FROM "notifications@instructure.com")')
             ids = data[0]
             id_list = ids.split()
 
@@ -769,9 +769,6 @@ def detectar(name,password):
 
                         #--Receiver--
                         message_receiver1=msg_data.get('Received')
-                        part = respuesta[1].decode('utf-8')
-                        msg = email.message_from_string(part)
-                        print(msg)
 
                         #--UTC--
                         UTC=msg_data.get('Date')
